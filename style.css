@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+header {
+    background:rgba(28, 65, 125, 0.5);
+  text-align: center;
+  padding: 1rem;
+
+}
+h1{
+    display: grid;
+    justify-content: center;
+    color: aliceblue;
+ 
+}
+h2{
+    text-align: center;
+    margin-bottom: 10PX;
+    color: #011c48;
+}
+.users {
+
+    padding: 10px;
+    list-style: none;
+    color: #011c48;
+}
+#video{
+    display: none; 
+margin: auto;
+}
+#video2{
+    display: none;
+    margin: auto;
+}
+form {
+  
+    padding: 2rem;
+    border-radius: 4px;
+    background-color: rgba(28, 65, 125, 0.5);
+    
+}
+.msg {
+    margin-bottom: 15px;
+
+}
+
+.error {
+    background: red;
+    color: aliceblue;
+    padding: 20px;
+    margin: 5px;
+    border-radius:10px ;
+}
+label {
+    color: rgb(255, 255, 255);
+    font-weight: bold; 
+    font-size: 18px;
+}
+
+.container{
+
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+
+   
+
+    
+}
+input.name, 
+input.email{
+margin-top: 10px;
+width: 95%;
+height: 25px;
+
+}
+
+.button{
+    display: block;
+    margin: 0 auto;
+width: 60%;
+padding: 10px;
+   border-radius: 3px;
+border-color: black;
+border-style: solid;
+font-weight: bold;
+font-size: 20px;
+text-transform: uppercase;
+background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(14, 43, 117);
+
+  border-color: rgb(16, 9, 110);
+}
