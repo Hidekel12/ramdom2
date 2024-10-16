@@ -50,7 +50,10 @@ li.style.padding = '10px';
     userList.appendChild(li);
     nameInput.value ='';
     emailInput.value ='';
-
+  setTimeout(() => {
+        video2.style.display = 'none';
+        audio2.pause();
+    }, duration);
     
  
     
