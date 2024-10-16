@@ -25,7 +25,7 @@ function onSubmit(e){
     audio1.play();
 
 
-   
+       const duration = 3000;
 
     if(nameInput.value === ''|| emailInput.value ==='' ) {
        msg.classList.add ('error');
